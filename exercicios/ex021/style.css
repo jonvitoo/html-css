@@ -1,0 +1,40 @@
+@charset "UTF-8";
+
+h1 {
+    background-color: lightblue;
+    height: 300px;
+    width: 300px;
+    border-width: 10px;
+    border-style: dashed;
+    border-color: darkmagenta;
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px; 
+
+    /* para centralizar um elemento devemos utilizar margin: auto; */
+    /* se for um texto basta utilizar o text-align: center; */
+}
+
+a {
+    border-width: 10px;
+    border-style: solid;
+    border-color: rgb(0, 255, 13);
+
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+

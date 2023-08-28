@@ -1,0 +1,158 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+
+body {
+
+    text-align: justify;
+    width: 900px;
+    padding: 10px;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #84e1ad;
+
+}
+
+header {
+
+    font-family: 'arial narrow', arial, sans-serif;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(180deg, #84e1ad, #60a37d, #345e46);
+    height: 130px;
+    padding: 20px;
+    border: 20px;
+    margin: 20px;
+    
+}
+
+h1#id {
+
+    text-shadow: 5px;
+
+}
+
+nav {
+
+    text-align: left;
+    
+
+}
+
+a.menu {
+
+    color: white;
+    margin: 0px 10px;
+    
+}
+
+a.menu:visited{
+
+    color: white;
+
+}
+
+a {
+
+    color:#164b2d;
+    text-decoration: none;
+    font-weight: bold;
+
+}
+
+a:visited {
+
+    color: #60a37d;
+
+}
+
+a:hover {
+
+    color: darkred;
+    text-decoration: underline;
+
+}
+
+a:active {
+
+    color: yellow;
+
+}
+
+a.link::after {
+
+    content: '🔗';
+    text-decoration: none;
+    font-weight: normal;
+    color: #164b2d;
+
+}
+
+main {
+
+    background-color: white;
+    margin: 20px;
+    border: 20px;
+    padding: 20px;
+
+}
+
+h1#nomedosite {
+
+    font-family: 'Oswald', arial, sans-serif;
+
+}
+
+h1#titulo {
+
+    font-family: "idroid", arial, sans-serif;
+    font-size: 2.5em;
+    color: #345e46;
+
+}
+
+picture {
+
+    text-align: middle;
+
+}
+
+h2 {
+
+    font-family: "idroid", arial, sans-serif;
+    text-align: justify;
+    background-color: #67e4a934;
+    color: #345e46;    
+
+}
+
+p#video {
+
+    text-align: center;
+    margin: 0 auto;
+
+}
+
+div.lista {
+
+    display: inline-block;    
+    height: 120px;
+    width: 400px;
+
+}
+
+a {
+
+    font-style: normal;
+    font-weight: bold;
+    
+
+}
+
+footer {
+
+    background-color: #164b2d;
+    color: white;
+    text-align: center;
+
+}
